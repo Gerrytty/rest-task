@@ -56,9 +56,4 @@ public class NoteController {
         noteService.update(id, editNoteDto);
     }
 
-//    @GetMapping("notes")
-//    public ResponseEntity<?> search(@RequestParam String query) {
-//        return ResponseEntity.ok(noteService.search(query));
-//    }
-
 }
