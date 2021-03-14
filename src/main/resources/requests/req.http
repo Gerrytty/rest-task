@@ -1,0 +1,34 @@
+
+POST http://localhost:5000/notes
+Content-Type: application/json
+
+{
+
+  "title": "new test",
+  "content": "test"
+
+}
+
+###
+
+GET http://localhost:5000/notes
+
+###
+
+GET http://localhost:5000/notes?query=new
+
+###
+
+PUT http://localhost:5000/notes/533
+Content-Type: application/json
+
+{
+
+  "title": "new title",
+  "content": "new content"
+
+}
+
+###
+
+DELETE http://localhost:5000/notes/534
